@@ -1,0 +1,22 @@
+Difference between Node JS vs Browser JS
+
+	   Node JS		|	    Browser JS
+________________________________|______________________________
+				|
+1. Window, document and cookies	| Window, document and all other
+   can't be accessed.		| objects can be accessed.
+				|
+2. Filesystem can be accessed.	| Filesystem can't be accessed.
+				|
+3. You can control the whole	| Don't have the luxury to choose
+   environment and can be	| between the browsers used by 
+   deployed anywhere.		| clients.
+				|
+4. It supports all new versions	| Limited support to all
+   of ECMAScript.		| ECMAScript versions.
+				|
+5. Unable to use compiler to	| Compilers like Babel can be used
+   transform ES5 to ES6.	| to transform from ES5 to Es6.
+				|
+6. CommonJS is used and it is	| ES5 is being implemented and
+   standardized.		| standardized.
