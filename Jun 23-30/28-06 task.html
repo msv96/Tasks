@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=auto, initial-scale=1.0">
+  <title>Request For New PAN Card Or/And Changes Or Correction in PAN Data</title>
+  <style>
+    th {
+      background-color: brown;
+      text-align: center;
+    }
+    table,tr,td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 2px;
+      font-size: 13px;;
+      font-family: Arial, Helvetica, sans-serif;
+      width: 100%;
+    }
+    .red {
+      color: red;
+    }
+    .blue {
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th style="color: white;">Request For New PAN Card Or/And Changes Or Correction in PAN Data<br>
+        <i>Fields marked with <span class="red">*</span> (asterisk) are mandatory. <span style="color: black;">.</span>
+          To avoid mistake(s), prefer refer <a href="https://www.onlineservices.nsdl.com/paam/endUserRegisterContact.html" target="_blank" 
+          style="color: chocolate;">guidelines</a> and <a href="https://tin.tin.nsdl.com/pan/InstructionsCorr.html" target="_blank" 
+          style="color: chocolate;">instructions</a></i></th>
+      </tr>
+    </thead>
+  </table>
+  <table>
+    <tbody style="background-color: #FFFFDD">
+      <tr>
+        <td style="width: 2%;"></td>
+        <td><span class="red">*</span><b> Whether Citizen of India &emsp;&emsp;&emsp;&emsp;&emsp;</b>
+          <label for="indian">Yes</label><input type="radio" name="yesno" id="indian" value="yes">&emsp;&emsp;
+          <label for="nonindian">No</label><input type="radio" name="yesno" id="nonindian" value="no">
+        </td>
+      </tr>
+      <tr>
+        <td style="width: 2%;"></td>
+        <td><span class="red">*</span><label for="pan"><b> Permanent Account Number (PAN) </b></label>
+          <input type="text" name="pan" id="pan"></td>
+      </tr>
+      <tr>
+        <td style="width: 2%;"><input type="checkbox" name="nm" id="n"></td>
+        <td><span class="red">*</span><b> 1. Name </b><span class="blue">(Initials are not permitted in first and last name. Applicant's proof of identity and proof of address should contain the exact name mentioned in this field)</span></td>
+      </tr>
+      <tr>
+        <td style="width: 2%;"></td>
+        <td><b> Title</b>
+          &emsp;&emsp;<label for="mr">Shri/Mr.</label><input type="radio" name="title" id="mr">
+          &emsp;&emsp;<label for="mr">Smt./Mrs.</label><input type="radio" name="title" id="mrs">
+          &emsp;&emsp;<label for="mr">Kumari/Ms.</label><input type="radio" name="title" id="ms"></td>
+      </tr>
+      <tr>
+        <td style="width: 2%;"></td>
+        <td><b>Last Name/Surname&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+          First name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+          Middle Name</b><br>
+          <input type="text" name="surname" id="sname">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+          <input type="text" name="surname" id="sname">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+          <input type="text" name="surname" id="sname"></td>
+      </tr>
+      <tr>
+        <td style="width: 2%;"></td>
+        <td><span class="red">*</span><b> 2. Name as you would like It printed on the card </b><span class="blue">(Prefix like Shri, Smt, Kumari, Late, Dr, CA, Ms, Mr, Mrs, M/s, Alias etc. are not allowed)</span></td>
+      </tr>
+      <tr>
+        <td style="width: 2%;"></td>
+        <td><input type="text" name="nameoncard" id="cardname" size="45"></td>
+      </tr>
+      <tr>
+        <td style="width: 2%;"></td>
+        <td><b>Details of Parents. </b><span class="blue">(Prefix like Shri, Smt, Kumari, Late, Dr, CA, Ms, Mr, Mrs, M/s, Alias etc. are not allowed.)</span></td>
+      </tr>
+      <tr>
+        <td style="width: 2%;"></td>
+        <td><b>Whether mother is single parent and you wish to apply for PAN by furnishing the name of your mother only </b></td>
+      </tr>
+      <tr>
+        <td style="width: 2%;"><input type="checkbox" name="fnm" id="fn"></td>
+        <td><span class="red">*</span><b> 3. Father's Name </b><span class="blue">(Mandatory field. Even married women should give father's name only.)</span></td>
+      </tr>
+      <tr>
+        <td style="width: 2%;"></td>
+        <td><b>Last Name/Surname&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+          First name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+          Middle Name</b><br>
+          <input type="text" name="surname" id="sname">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+          <input type="text" name="surname" id="sname">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+          <input type="text" name="surname" id="sname"></td>
+      </tr>
+      <tr>
+        <td style="width: 2%;"><input type="checkbox" name="mnm" id="mn"></td>
+        <td><span class="blue"> Mother's Name (This field is optional.)</span></td>
+      </tr>
+      <tr>
+        <td style="width: 2%;"></td>
+        <td><b>Last Name/Surname&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+          First name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+          Middle Name</b><br>
+          <input type="text" name="surname" id="sname">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+          <input type="text" name="surname" id="sname">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+          <input type="text" name="surname" id="sname"></td>
+      </tr>
+      <tr>
+        <td style="width: 2%;"></td>
+        <td><span class="red">*</span><b> 4. Select Parent name which is to be printed on the card</b><br><span class="blue">(In case no option is provided then PAN card will be issued with father's name)</span></td>
+      </tr>
+      <tr>
+        <td style="width: 2%;"><input type="checkbox" name="dob" id="birthdate"></td>
+        <td><span class="red">*</span><b> 5. Date of Birth/Incorporation/Agreement/Partnership
+          or Trust Deed/Formation of Body of Individuals/
+          Association of Persons</b></td>
+      </tr>
+      <tr>
+        <td style="width: 2%;"><input type="checkbox" name="gender" id="gender"></td>
+        <td><span class="red">*</span><b> 6. Gender</b></td>
+      </tr>
+      <tr>
+        <td style="width: 2%;"><input type="checkbox" name="photo" id="photo"></td>
+        <td><b>&nbsp;&nbsp;7. Photo Mismatch</b></td>
+      </tr>
+      <tr>
+        <td style="width: 2%;"><input type="checkbox" name="sign" id="signmismatch"></td>
+        <td><b>&nbsp;&nbsp;8. Signature Mismatch</b></td>
+      </tr>
+      <tr>
+        <td style="width: 2%;"><input type="checkbox" name="address" id="address1"></td>
+        <td><span class="red">*</span><b> 9. Address for Communication</b></td>
+      </tr>
+      <tr>
+        <td style="width: 2%;"></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
